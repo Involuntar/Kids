@@ -1,0 +1,111 @@
+body {
+    font-family: 'Georgia';
+    text-align: center;
+    background-color: #d9fffe;
+    background-image: linear-gradient(0.525turn, #d9fffe, #25909a, #007c78);
+    font-size: 16pt;
+    margin: 0;
+}
+.sources{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sources p {
+    font-size: 12pt;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+.sources ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    hyphens: auto;
+}
+.topics {
+    width: 50%;
+}
+.topics li, .pricelist p {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+#header-list {
+    font-weight: bolder;
+    font-size: 24pt;
+    text-align: center;
+}
+footer {
+    font-size: 12pt;
+    text-align: center;
+    color: white;
+    background-color: #7c0004;
+}
+footer p {
+    padding: 5px;
+    margin: 0;
+}
+footer a {
+    color: white;
+}
+.footer-small-describe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-small-describe p {
+    font-size: 10pt; 
+    color: lightgray; 
+    hyphens: auto;
+    width: 500px;
+    margin: 10px;
+}
+thead th {
+    background-color: #7c0004;
+}
+tbody td {
+    background-color: #950005;
+}
+table {
+    border: white solid;
+    border-radius: 10px;
+}
+th, td {
+    border: #7c0004 dashed;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+}
+table {
+    margin: auto;
+}
+#table-header {
+    color: #7c0004;
+    margin-bottom: 10px;
+    font-size: 18pt;
+}
+form {
+    text-align: left;
+    border: #E1B075 dotted;
+    border-width: thick;
+    margin: 30px 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+form label, form p {
+    display: flex;
+    color: white;
+    font-weight: bold;
+    align-content: center;
+    justify-content: left;
+}
+form input, form textarea {
+    background-color: #E1B075;
+    border-radius: 10px;
+    border: white solid;
+    padding: 5px;
+}
